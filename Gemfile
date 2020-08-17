@@ -6,6 +6,8 @@ ruby '2.7.1'
 
 # Annotate models
 gem 'annotate'
+# Para poder continuar usando el div_for y el content_tag_for
+gem 'record_tag_helper', '~> 1.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
 # Use sqlite3 as the database for Active Record
